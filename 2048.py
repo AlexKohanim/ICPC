@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #left, up, right, down
 #0, 1, 2, 3
 
