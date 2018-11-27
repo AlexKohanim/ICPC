@@ -1,5 +1,7 @@
 #left, up, right, down
 #0, 1, 2, 3
+
+# This problem is not finished as of 11/27/18
 l = []
 for _ in range(4):
     l.append(list(map(int, input().split())))
