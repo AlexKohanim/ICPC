@@ -1,3 +1,4 @@
 # ICPC
 Some problems from Kattis
-Added SSH key for home desktop
+
+This Collection are problem I completed from August of 2018.
