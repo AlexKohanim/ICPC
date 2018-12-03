@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 
-# Not Finished as of 12/2/18
 
 correct = int(input())
 my_answers = input()
@@ -26,10 +25,9 @@ for i in range(total):
         diff += 1
 same = total - diff
 
-if same <= correct:
-    my_correct += same
+overflow = same - correct
+if overflow >= 0:
+    my_correct = total - overflow
 else:
-    my_correct += total - abs(correct - same)
-my_correct = diff - correct
-
+    my_correct = total + overflow
 print(my_correct)
