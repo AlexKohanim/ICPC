@@ -13,6 +13,6 @@ with open(sys.argv[1], 'r') as s:
             stocks.update({date:adj_close})
         else:
             stocks[date] = float(line.split(",")[4])
-for k,v in stocks.iteritems():
+for k,v in stocks.items():
     print(k,max(v),sep="\t")
         
