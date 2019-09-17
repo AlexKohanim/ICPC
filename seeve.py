@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import math
 n = int(input())
 a = [i for i in range(2,n+1)]
