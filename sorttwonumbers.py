@@ -1,0 +1,1 @@
+[print(x, end=' ' if not indx else '\n') for indx, x in enumerate(sorted(list(map(int, input().split()))))]
